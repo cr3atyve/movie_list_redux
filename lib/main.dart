@@ -34,8 +34,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return StoreProvider<AppState>(
       store: store,
-      child: const MaterialApp(
-        debugShowCheckedModeBanner: false,
+      child: const MaterialApp(        
         home: HomePage(),
       ),
     );
