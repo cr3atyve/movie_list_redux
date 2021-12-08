@@ -18,7 +18,7 @@ class YtsApi {
       host: 'yts.mx',
       pathSegments: <String>['api', 'v2', 'list_movies.json'],
       queryParameters: <String, String>{
-        'limit': '9',
+        'limit': '6',
         'page': '$page',
         'order_by': orderBy,
         if (quality != null) 'quality': quality,
